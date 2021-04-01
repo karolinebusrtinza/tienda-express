@@ -6,7 +6,7 @@ app.get('/clientes',c_clientes);
 app.get('/productos',c_productos);
 
 function c_inicio(req,res){
-    res.send('<h1>Express Inic</h1>')
+    res.send('<h1>Express Inicio</h1>')
 }
 
 function c_clientes(req,res){
@@ -17,7 +17,7 @@ function c_productos(req,res){
 }
 
 function c_server(req,res){
-    console.log('port:8000');
+   console.log('port:8000');
 }
 
 var server=app.listen(8000,c_server);
